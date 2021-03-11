@@ -1,21 +1,43 @@
 # Learing C++
-## How it Works:
-```#include <iostream>
-#include <vector>
-#include <string>
+## Basic Data Types
+* char
+* int
+* float
+* double
+* void
+> 2 additional
+* bool
+* wchar_t
+> If a variable is unsigned, it only contains positive values and allows it to store numerically larger numbers
+```
+int main()
+{
+	float var = 5.5; //it is actually a double
+	float var = 5.5f; //this is a float: after adding 'f'
+	double variable = 5.3 ;
+}
+```
+```
+int main()
+{
+	bool = true; //output: 1
+}
+```
+## Functions
+```
+#include <iostream>
 
-using namespace std;
+int Multiply(int a, int b) //declaring a function, setting parameters within brackets
+{
+	return a * b;
+}
 
 int main()
 {
-   vector<string> msg {"hello", "Worlds"};
-
-   for (const string& word : msg){
-       cout << word << " ";
-   }
-   cout << endl;
+	int result = Multiply(6, 7); //calling function and giving values for parameters
+	
+	std::cout << result <<std::endl;
+	std::cin.get();
 }
 ```
-> \#include <>: imports files which have declarations for functions used in the program
-> int main(): it is the main fuction of the program
-> endl: ends the line
+## Header Files

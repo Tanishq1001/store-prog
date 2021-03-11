@@ -1,15 +1,11 @@
-#include <iostream>
-#include <vector>
-#include <string>
+# include <iostream>
 
-using namespace std;
+void Log(const char* message)
+{
+    std::cout << message <<std::endl;
+}
 
 int main()
 {
-   vector<string> msg {"hello", "Worlds"};
-
-   for (const string& word : msg){
-       cout << word << " ";
-   }
-   cout << endl;
+    Log("hello");
 }
