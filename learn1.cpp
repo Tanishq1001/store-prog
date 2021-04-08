@@ -1,4 +1,4 @@
-void Log(const char* message);
+#include "log.h"
 
 void LogInit()
 {
