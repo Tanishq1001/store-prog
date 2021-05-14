@@ -1,4 +1,4 @@
-# C++
+# Javascript
 ## Data Types:
 > It is an interprated language
 
@@ -20,3 +20,5 @@ var b = 2
 a = 7;
 console.log(a)
 ```
+
+> variables are case sensitive
