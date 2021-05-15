@@ -1,6 +1,7 @@
-var s = 0;
-fuction addFive() {
-    s += 5;
+var a
+
+function addFive(a) {
+    a += 5
 }
 
-console.log(addfive())
+console.log(addFive(5))

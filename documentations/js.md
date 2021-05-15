@@ -22,3 +22,51 @@ console.log(a)
 ```
 
 > variables are case sensitive
+> if statement
+```
+if (condition) {
+    code;
+}
+
+if (condition1 && condition2) {
+    code;
+}
+
+//or : ||
+if (condition1 || condition2) {
+    code;
+} else if (condition) {
+    code;
+}else {
+
+}
+```
+
+> switch statement
+```
+function inSwitch() {
+    var num = ''
+    switch(val) {
+        case 1:         // if val === 1
+            num = 'alfa';
+            break;
+        case 2:
+            num = 'beta'
+            break;
+        // and so on...
+    }
+    return num;
+}
+```
+
+```
+function switchofstuf(val) {
+    var answer = ''
+    switch (val) {
+        case a:
+        answer = 'apple';
+        break;
+    
+    }
+}
+```
