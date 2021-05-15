@@ -1,5 +1,6 @@
-var a;
-var b = 8;
+var s = 0;
+fuction addFive() {
+    s += 5;
+}
 
-a = 7;
-console.log(a)
+console.log(addfive())
