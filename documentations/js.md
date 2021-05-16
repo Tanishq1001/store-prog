@@ -70,3 +70,57 @@ function switchofstuf(val) {
     }
 }
 ```
+
+> Objects
+```
+var mydog = {
+    'name': 'camper'
+    'age': 5
+    'friends': ['evevyone']
+    'family members' : ['amy', 'macy', 'carat']
+
+//accessing values from an object:
+
+var nameValue = mydog.name // returns 'camper'
+var ageValue = mydog.age // returns 5
+
+//another way of accessing: 
+var familyValue = mydog['family members'] // used when attribute is multiple words
+
+// updating properties
+
+var mydog = {
+    'name': 'camper'
+    'age': 5
+    'friends': ['evevyone']
+    'family members' : ['amy', 'macy', 'carat']
+
+mydog.name = 'harry' // changes name to harry
+
+// add new properties
+
+var mydog = {
+    'name': 'camper'
+    'age': 5
+    'friends': ['evevyone']
+    'family members' : ['amy', 'macy', 'carat']
+
+mydog.bark = True
+delete mydog.age // deletes property
+};
+```
+
+> using objects for lookup
+```
+function lookup(val) {
+    var answer = ''
+    var lookup = {
+        'alpha' : 'apple'
+        'beta' : 'banana'
+        'gama' : 'orange'
+    };
+    result = lookup[val]
+    return answer
+} 
+console.log(lookup('alpha'))
+```

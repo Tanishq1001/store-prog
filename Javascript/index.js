@@ -1,4 +1,4 @@
-function inSwitch () {
+function inSwitch (val) {
     var num = ''
     switch(val) {
         case 1:
